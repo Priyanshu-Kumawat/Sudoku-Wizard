@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #100f0f;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .cellInput {
   border-radius: 5px;
   width: 50px;
@@ -25,22 +10,35 @@
   background-color: #E2DCC8; 
 }
 
+/* Media query for screens smaller than 414px in width */
+@media only screen and (max-width: 550px) {
+  .cellInput {
+    width: 40px; 
+    height: 40px; 
+    font-size: 16px; 
+  }
+}
+
+
 .cellInput:disabled{
   background-color: #0F3D3E; 
   color: #E2DCC8; 
 }
 
+
 table {
-  border-radius: 5px;
+  border-radius: 50px;
   border-collapse: collapse;
   border: 2px solid bisque;
-  margin: 20px;
+  margin: 40px;
 }
+
+
 td {
-  padding: 0;
   border-radius: 5px;
   margin: 20px;
 }
+
 
 .buttonContainer{
   display: flex;
@@ -49,6 +47,7 @@ td {
   justify-content: center;
   max-width: 454px;
 }
+
 
 .solveButton {
   background-color: #008CBA;
@@ -60,6 +59,8 @@ td {
   margin: 25px;
   border-radius: 30px;
 }
+
+
 .checkButton {
   background-color: #4CAF50;
   font-weight: bold;
@@ -70,6 +71,8 @@ td {
   margin: 25px;
   border-radius: 30px;
 }
+
+
 .resetButton {
   background-color: #F44336;
   font-weight: bold;
@@ -80,6 +83,7 @@ td {
   margin: 25px;
   border-radius: 30px;
 }
+
 
 .addButton
 {
@@ -93,10 +97,12 @@ td {
   border-radius: 30px;
 }
 
+
 button:hover
 {
   color: aliceblue;
 }
+
 
 .inputCustomGrid
 {
@@ -107,15 +113,18 @@ button:hover
   min-height: 100px;
 }
 
+
 #scrollbar6::-webkit-scrollbar {
   width: 12px;
 }
+
 
 #scrollbar6::-webkit-scrollbar-track {
   border-radius: 8px;
   background-color: #0F3D3E;
   padding: 5px;
 }
+
 
 #scrollbar6::-webkit-scrollbar-thumb {
 
@@ -124,11 +133,13 @@ button:hover
   border: 2px solid #0F3D3E;
 }
 
+
 textarea {
   resize: none;
   overflow: auto;
   color: #0F3D3E;
 }
+
 
 textarea::placeholder {
   color: #0F3D3E;
@@ -138,6 +149,7 @@ textarea::placeholder {
 
 .customInput
 {
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
