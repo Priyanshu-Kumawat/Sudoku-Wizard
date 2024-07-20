@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #100f0f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cellInput {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid black;
+  color:  #0F3D3E;
+  background-color: #E2DCC8; 
+}
+
+.cellInput:disabled{
+  background-color: #0F3D3E; 
+  color: #E2DCC8; 
+}
+
+table {
+  border-radius: 5px;
+  border-collapse: collapse;
+  border: 2px solid bisque;
+  margin: 20px;
+}
+td {
+  padding: 0;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 454px;
+}
+
+.solveButton {
+  background-color: #008CBA;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius:  200x;
+  font-size: 14px;
+  margin: 25px;
+  border-radius: 30px;
+}
+.checkButton {
+  background-color: #4CAF50;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius:  200x;
+  font-size: 14px;
+  margin: 25px;
+  border-radius: 30px;
+}
+.resetButton {
+  background-color: #F44336;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius:  200x;
+  font-size: 14px;
+  margin: 25px;
+  border-radius: 30px;
+}
+
+.addButton
+{
+  background-color: #FFA500;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius:  200x;
+  font-size: 14px;
+  margin: 25px;
+  border-radius: 30px;
+}
+
+button:hover
+{
+  color: aliceblue;
+}
+
+.inputCustomGrid
+{
+  background-color:#E2DCC8;
+  border: #0F3D3E;
+  border-radius: 10px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+#scrollbar6::-webkit-scrollbar {
+  width: 12px;
+}
+
+#scrollbar6::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #0F3D3E;
+  padding: 5px;
+}
+
+#scrollbar6::-webkit-scrollbar-thumb {
+
+  border-radius: 8px;
+  background-color: #E2DCC8;
+  border: 2px solid #0F3D3E;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+  color: #0F3D3E;
+}
+
+textarea::placeholder {
+  color: #0F3D3E;
+  opacity: .4;
+}
+
+
+.customInput
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
